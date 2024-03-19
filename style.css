@@ -1,24 +1,26 @@
    #body{
     background-color: white;
-   }
-   #Navbar{
-    justify-content: space-between;
-
 }
 #image6{
     border-radius: 50%;
+
 }
 #Navbar2{
+    
+    gap: 3%;
     display: flex;
-    justify-content: space-between;
-    text-align: left;
 }
 
 #Navbar3{
 display: flex;
-justify-content: space-between;
+gap: 3%;
+justify-content: right;
     }
 
+#Navbar4{
+    display: flex;
+    gap: 3%;
+}
 #image{
     width: 40px;
     height: 50px;
@@ -33,29 +35,38 @@ justify-content: space-between;
 }
 #topic2{
     display: flex;
-    justify-content: space-between;
+    gap: 30%;
     font-size: xx-large;
     
 }
 #ima{
-    width: 180px;
-    height: 200px;
+    width: 350px;
+    height: 400px;
 }
 #image3{
     display: flex;
-    width: 120px;
-    height: 150px;
-    justify-content: space-between;
+    width: 95px;
+    height: 120px;
+    gap: 40%;
+    
 
 }
 #Accessories{
     display: flex;
+    gap: 30%;
     
 }
+#image10{
+    display: flex;
+    width: 90px;
+    height: 120px;
+    gap: 50%;
+}
+
 #topic3{
     display: flex;
-     justify-content: space-between;
      font-size: x-large;
+     gap: 30%;
 
 }
 #image4{
@@ -67,5 +78,81 @@ justify-content: space-between;
     width: 100px;
     height: 120px;
     display: flex; 
+    gap: 10%;
+}
+#image8{
+    position: absolute;
+}
+#content{
+    display: flex;
     justify-content: space-between;
 }
+#image6{
+    width: 30px;
+    height: 40px;
+    display: flex;
+}
+#image9{
+    width: 70px;
+    height: 90px;
+}
+
+#image7{
+    width: 120px;
+    height: 150px;
+    display: flex;
+}
+#image11{
+    width: 400px;
+    height: 450px;
+    justify-content: right;
+}
+#clothing2{
+    display: flex;
+    gap: 50%;
+}
+#image12{
+    justify-content: center;
+    
+}
+
+
+
+
+
+@media only screen and(min-width:414px){
+    #image6{
+        width: 30px;
+        height: 30px;
+}
+
+#content{
+    
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
